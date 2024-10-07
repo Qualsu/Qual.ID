@@ -30,7 +30,6 @@ export default function RootLayout({
       baseTheme: dark,
     }}>
       <html lang="ru">
-        <link rel="shortcut icon" href="/favicon.ico" />
         <body>
           <Header/>
           {children}
