@@ -1,11 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",
-    basePath: "/QualID",
-    reactStrictMode: true,
-    images: {
-        unoptimized: false
-    }
+    output: "export"
 };
 
 export default nextConfig;
