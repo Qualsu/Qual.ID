@@ -17,16 +17,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider appearance={{
-      baseTheme: dark,
-    }}>
       <html lang="ru">
-        <body>
-          <Header/>
-          {children}
-          <Footer/>
-        </body>
+        <ClerkProvider appearance={{
+          baseTheme: dark,
+        }}>
+          <body>
+            <Header/>
+            {children}
+            <Footer/>
+          </body>
+        </ClerkProvider>
       </html>
-    </ClerkProvider>
   );
 }
