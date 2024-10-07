@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
       <html lang="ru">
-        <ClerkProvider appearance={{
+        <ClerkProvider publishableKey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY} appearance={{
           baseTheme: dark,
         }}>
           <body>
