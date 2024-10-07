@@ -1,17 +1,26 @@
+"use client"
+
 import singleImg from "./img/single.svg"
 import safeImg from "./img/safe.svg"
 import ecosystemImg from "./img/ecosystem.svg"
 import teamImg from "./img/team.svg"
 import { Card } from "./component/card";
 import { Main } from "./component/main";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Qual ID",
-  description: "Единый аккаунт для всех",
-};
+import { useEffect } from "react"
 
 export default function Home() {
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+        window.scrollTo({
+            top: document.body.scrollHeight / 4,
+            behavior: 'smooth'
+        });
+    }, 1800)
+
+    return () => clearTimeout(timer)
+  }, []);
+
   return (
     <>
       <Main />
@@ -21,7 +30,7 @@ export default function Home() {
       </div>
 
       <div className="animate-fade-right animate-once animate-duration-1000 animate-delay-[2800ms]">
-        <Card name="Безопасность" description={"Все ваши данные находятся под надежной защитой от Clerk и не попадут 3-им   лицам"} img={safeImg}/>
+        <Card name="Безопасность" description={"Все ваши данные находятся под надежной защитой от Clerk и не попадут в руки 3-им лицам"} img={safeImg}/>
       </div>
 
       <div className="animate-fade-right animate-once animate-duration-1000 animate-delay-[3000ms]">

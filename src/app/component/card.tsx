@@ -17,8 +17,8 @@ export function Card({ name, description, img, org }: CardProps){
                 <h3 className="text-xl break-word max-w-[500px] text-gray-300 px-4 md:px-0">{description}</h3>
                 {org && (
                     <div className="my-2 text-gray-400 flex flex-col">
-                    Ваши организации: 
-                    <div className="my-2"><OrganizationSwitcher/></div>
+                        Ваши организации: 
+                        <div className="my-2"><OrganizationSwitcher/></div>
                     </div>
                 )}
             </div>
