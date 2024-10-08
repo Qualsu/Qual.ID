@@ -17,7 +17,7 @@ export function Footer(){
                             <a href="https://feedback.qual.su" target="_blank" className="hover:underline me-4 md:me-6">Feedback</a>
                         </li>
                         <li>
-                            <a href="https://qual.su" target="_blank" className="hover:underline me-4 md:me-6">Privacy Policy</a>
+                            <a href="https://clerk.com/legal/privacy" target="_blank" className="hover:underline me-4 md:me-6">Privacy Policy</a>
                         </li>
                         <li>
                             <a href="https://t.me/qualsu" target="_blank" className="hover:underline me-4 md:me-6">Telegram</a>

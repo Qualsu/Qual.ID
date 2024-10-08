@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@alpinejs/intersect": "^3.14.1",
     "@clerk/nextjs": "^5.7.1",
     "@clerk/themes": "^2.1.35",
     "next": "14.2.14",
@@ -17,6 +18,7 @@
     "tailwindcss-animated": "^1.1.2"
   },
   "devDependencies": {
+    "@types/alpinejs__intersect": "^3.13.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
@@ -24,6 +26,7 @@
     "eslint-config-next": "14.2.14",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
+    "tailwindcss-intersect": "^2.0.1",
     "typescript": "^5"
   }
 }

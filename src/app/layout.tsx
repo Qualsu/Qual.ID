@@ -9,6 +9,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Qual ID",
   description: "Единый аккаунт для всех",
+  icons: {
+    icon: 'https://id.qual.su/_next/static/media/ID.7c4a7838.svg',
+  },
 };
 
 export default function RootLayout({

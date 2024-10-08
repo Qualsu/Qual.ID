@@ -17,7 +17,8 @@ export function Main(){
                 <Image src={idImg} width="30" alt="ID" className="mx-2"/>
               </span>
               
-               - Единый аккаунт для всех
+              <span className="mr-2"> - </span>
+              Единый аккаунт для всех
           </h1>
       </main>
     )

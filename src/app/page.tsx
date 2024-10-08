@@ -1,26 +1,11 @@
-"use client"
-
 import singleImg from "./img/single.svg"
 import safeImg from "./img/safe.svg"
 import ecosystemImg from "./img/ecosystem.svg"
 import teamImg from "./img/team.svg"
 import { Card } from "./component/card";
 import { Main } from "./component/main";
-import { useEffect } from "react"
 
 export default function Home() {
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-        window.scrollTo({
-            top: document.body.scrollHeight / 4,
-            behavior: 'smooth'
-        });
-    }, 1800)
-
-    return () => clearTimeout(timer)
-  }, []);
-
   return (
     <>
       <Main />
@@ -40,6 +25,8 @@ export default function Home() {
       <div className="animate-fade-right animate-once animate-duration-1000 animate-delay-[3200ms]">
         <Card name="Командная работа" description="Для удобной командой работы Clerk предоставляет систему организаций с синхронизацией" img={teamImg} org/>
       </div>
+
+      <div className="opacity-0 intersect:opacity-100 transition-opacity text-white">wefwef</div>
     </>
   );
 }
