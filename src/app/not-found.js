@@ -8,7 +8,7 @@ const NotFound = () => {
     <section className="flex justify-center md:flex-row flex-col items-center mt-6">
         <title>404 Not found</title>
         <Image src={img} width="400" alt="" className="m-2 md:mr-2 flex items-center"/>
-        <div className="text-center md:text-left mx-2 mb-8 ml-12">
+        <div className="text-center md:text-left mx-2 mb-8 ml-0 md:ml-12">
             <h1 className="text-7xl md:text-8xl my-5 md:my-2">
                 <span className="text-qual-Q">4</span>
                 <span className="text-qual-U">0</span>
