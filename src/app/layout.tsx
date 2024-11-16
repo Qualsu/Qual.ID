@@ -5,6 +5,7 @@ import { Header } from "./component/header";
 import { dark } from '@clerk/themes'
 import { Footer } from "./component/footer";
 import { Metadata } from "next";
+import { Alert } from "./component/alert";
 
 export const metadata: Metadata = {
   title: "Qual ID",
@@ -26,6 +27,7 @@ export default function RootLayout({
         }}>
           <body>
             <Header/>
+            <Alert/>
             {children}
             <Footer/>
           </body>
