@@ -6,7 +6,7 @@ export function User(){
             <UserButton/>
             <SignedOut>
                 <SignInButton>
-                    <p className="text-white hover:cursor-pointer hover:text-gray-300 active:font-xs">Войти</p>
+                    <a className="text-white hover:cursor-pointer hover:text-gray-300 active:font-xs" href="/auth/sign-in">Войти</a>
                 </SignInButton>
             </SignedOut>
         </>

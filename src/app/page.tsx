@@ -4,10 +4,13 @@ import ecosystemImg from "./img/ecosystem.svg"
 import teamImg from "./img/team.svg"
 import { Card } from "./component/card";
 import { Main } from "./component/main";
+import { Header } from "./component/header";
+import { Footer } from "./component/footer";
 
 export default function Home() {
   return (
     <>
+      <Header/>
       <Main />
 
       <div className="animate-fade-right animate-once animate-duration-1000 animate-delay-[2600ms]">
@@ -27,6 +30,7 @@ export default function Home() {
       </div>
 
       <div className="opacity-0 intersect:opacity-100 transition-opacity text-white">wefwef</div>
+      <Footer/>
     </>
   );
 }

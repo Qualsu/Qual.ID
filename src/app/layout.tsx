@@ -1,9 +1,7 @@
 import "./globals.css";
 import "./scroll.css";
 import { ClerkProvider } from "@clerk/nextjs";
-import { Header } from "./component/header";
 import { dark } from '@clerk/themes'
-import { Footer } from "./component/footer";
 import { Metadata } from "next";
 import { Alert } from "./component/alert";
 
@@ -26,10 +24,8 @@ export default function RootLayout({
           baseTheme: dark,
         }}>
           <body>
-            <Header/>
             <Alert/>
             {children}
-            <Footer/>
           </body>
         </ClerkProvider>
       </html>
