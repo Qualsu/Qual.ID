@@ -22,7 +22,7 @@ export default function Home() {
       </div>
 
       <div className="animate-fade-right animate-once animate-duration-1000 animate-delay-[3000ms]">
-        <Card name="Единство" description="Наши продукты(Kenycloud, shortul, notter и т.д) имеют общую систему аккаунтов QualID" img={ecosystemImg}/>
+        <Card name="Единство" description="Наши продукты(Kenycloud, Notter и т.д) имеют общую систему аккаунтов Qual ID" img={ecosystemImg}/>
       </div>
 
       <div className="animate-fade-right animate-once animate-duration-1000 animate-delay-[3200ms]">
