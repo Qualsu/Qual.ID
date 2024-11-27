@@ -1,11 +1,11 @@
-import singleImg from "./img/single.svg"
-import safeImg from "./img/safe.svg"
-import ecosystemImg from "./img/ecosystem.svg"
-import teamImg from "./img/team.svg"
-import { Card } from "./component/card";
-import { Main } from "./component/main";
-import { Header } from "./component/header";
-import { Footer } from "./component/footer";
+import singleImg from "../img/single.svg"
+import safeImg from "../img/safe.svg"
+import ecosystemImg from "../img/ecosystem.svg"
+import teamImg from "../img/team.svg"
+import { Card } from "../component/card";
+import { Main } from "../component/main";
+import { Header } from "../component/header";
+import { Footer } from "../component/footer";
 
 export default function Home() {
   return (
