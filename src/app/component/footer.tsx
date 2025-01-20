@@ -28,7 +28,7 @@ export function Footer(){
                     </ul>
                 </div>
                 <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
-                <span className="block text-sm sm:text-center text-gray-400">© 2021-2024 <a href="https://qual.su" className="hover:underline">Qualsu</a></span>
+                <span className="block text-sm sm:text-center text-gray-400">© 2021-2025 <a href="https://qual.su" className="hover:underline">Qualsu</a></span>
             </div>
         </footer>
     )

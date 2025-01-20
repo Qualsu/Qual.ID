@@ -4,4 +4,4 @@
 
 ### [id.qual.su](https://id.qual.su)
 
-© 2021-2024 Qualsu
+© 2021-2025 Qualsu

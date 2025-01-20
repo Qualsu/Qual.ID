@@ -1,9 +1,11 @@
-import "./(root)/globals.css";
-import "./(root)/scroll.css";
+import "./globals.css";
+import "./scroll.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from '@clerk/themes'
 import { Metadata } from "next";
 import { Alert } from "./component/alert";
+import { Header } from "./component/header";
+import { Footer } from "./component/footer";
 
 export const metadata: Metadata = {
   title: "Qual ID",
@@ -24,8 +26,10 @@ export default function RootLayout({
           baseTheme: dark,
         }}>
           <body>
+            <Header/>
             <Alert/>
             {children}
+            <Footer/>
           </body>
         </ClerkProvider>
       </html>

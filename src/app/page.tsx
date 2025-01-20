@@ -1,16 +1,13 @@
-import singleImg from "../img/single.svg"
-import safeImg from "../img/safe.svg"
-import ecosystemImg from "../img/ecosystem.svg"
-import teamImg from "../img/team.svg"
-import { Card } from "../component/card";
-import { Main } from "../component/main";
-import { Header } from "../component/header";
-import { Footer } from "../component/footer";
+import singleImg from "./img/single.svg"
+import safeImg from "./img/safe.svg"
+import ecosystemImg from "./img/ecosystem.svg"
+import teamImg from "./img/team.svg"
+import { Card } from "./component/card";
+import { Main } from "./component/main";
 
 export default function Home() {
   return (
     <>
-      <Header/>
       <Main />
 
       <div className="animate-fade-right animate-once animate-duration-1000 animate-delay-[2600ms]">
@@ -18,7 +15,7 @@ export default function Home() {
       </div>
 
       <div className="animate-fade-right animate-once animate-duration-1000 animate-delay-[2800ms]">
-        <Card name="Безопасность" description={"Все ваши данные находятся под надежной защитой от Clerk и не попадут в руки 3-им лицам"} img={safeImg}/>
+        <Card name="Безопасность" description={"Ваши данные защищены Clerk и не передаются 3-им лицам, а так же вы можете подключить 2FA для дополнительной безопасности"} img={safeImg}/>
       </div>
 
       <div className="animate-fade-right animate-once animate-duration-1000 animate-delay-[3000ms]">
@@ -30,7 +27,6 @@ export default function Home() {
       </div>
 
       <div className="opacity-0 intersect:opacity-100 transition-opacity text-white">wefwef</div>
-      <Footer/>
     </>
   );
 }
